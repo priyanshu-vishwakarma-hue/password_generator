@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>totaly ad free and secure password generator</h1>
+        <div class="page">
+            <p id="output" style="font-size: 40px;">lnlng22e32r3fjv</p>
+            <div>
+                <input type="range" id="range" name="range" min="8" max="20" value="10">
+                <label for="range" id="keywords">choose password length </label>
+            </div>
+            <p id="length">10</p>
+            <div class="keys">
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox1" name="upperchase">
+                    <label for="upperchase" id="keywords">upperchase</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox2" name="lowerchase">
+                    <label for="lowerchase" id="keywords">lowerchase</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox3" name="number">
+                    <label for="number" id="keywords">number</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox4" name="symbol">
+                    <label for="symbol" id="keywords">symbol</label>
+                </div>
+            </div>
+
+            <div>
+                <button type="submit" id="generate">generate</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
